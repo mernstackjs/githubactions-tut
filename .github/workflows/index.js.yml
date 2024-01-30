@@ -1,4 +1,4 @@
-name: Node.js CI
+name: nodeapi
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Setup Node.js
+      - name: nodeapi
         uses: actions/setup-node@v3
         with:
           node-version: "14" # Use the desired Node.js version
