@@ -1,4 +1,4 @@
-name: Run JavaScript File
+name: Run Hooyo
 
 on: [push]
 
@@ -10,5 +10,5 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Run JavaScript file
+      - name: Run Hooyo
         run: node huda.js
