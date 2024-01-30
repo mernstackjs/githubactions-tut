@@ -11,4 +11,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Ahmed
-        run: node app.js
+        run: node ahmed.js
