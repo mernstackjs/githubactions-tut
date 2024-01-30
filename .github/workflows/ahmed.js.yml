@@ -1,0 +1,14 @@
+name: Run Ahmed
+
+on: [push]
+
+jobs:
+  run_app:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run Ahmed
+        run: node app.js
