@@ -5,10 +5,10 @@ on: [push]
 jobs:
   run_app:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-      
-    - name: Run JavaScript file
-      run: node app.js
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run JavaScript file
+        run: node app.js
