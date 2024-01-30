@@ -23,3 +23,9 @@ const students = [
 generateRoleNumber(students);
 
 console.log(students);
+const findByName = (name) => {
+  const student = students.find((sn) => sn.name == name);
+  return student ? student : `Don't find this ${name} in owr system`;
+};
+
+console.log(findByName("Huda Ahmed"));
